@@ -8,6 +8,7 @@ class GardensController < ApplicationController
 
   # GET /gardens/1
   def show
+    # Ici je créé la coquille vide de @plant pour le formulaire qui est dans la show.
     @plant = Plant.new
   end
 

@@ -1,4 +1,5 @@
 class PlantsController < ApplicationController
+  # Je n'ai pas besoin de l'action new puisque j'ai besoin de la coquille vide dans la show de garden
   def create
     @garden = Garden.find(params[:garden_id])
     @plant = Plant.new(plant_params)
